@@ -20,7 +20,7 @@ function testCompat() {
   const device = getProductName()
   const iOSVersion = getIOSVersion()
 
-  return client.isMobileSafari() && device && iOSVersion && (iOSVersion[0] >= 11 && iOSVersion[1] < 4)
+  return client.isMobileSafari() && device && iOSVersion && (iOSVersion[0] >= 11 && iOSVersion[1] < 10)
 }
 
 function doThings() {
